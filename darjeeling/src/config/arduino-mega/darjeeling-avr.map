@@ -1,0 +1,1624 @@
+Archive member included because of file (symbol)
+
+darjeeling.a(main.o)          /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o (main)
+darjeeling.a(avr.o)           darjeeling.a(main.o) (avr_serialInit)
+darjeeling.a(djtimer.o)       darjeeling.a(main.o) (dj_timer_init)
+darjeeling.a(execution.o)     darjeeling.a(main.o) (dj_exec_setVM)
+darjeeling.a(global_id.o)     darjeeling.a(execution.o) (dj_global_id_resolve)
+darjeeling.a(heap.o)          darjeeling.a(main.o) (dj_mem_init)
+darjeeling.a(infusion.o)      darjeeling.a(global_id.o) (dj_infusion_getReferencedInfusionIndex)
+darjeeling.a(jlib_base.o)     darjeeling.a(main.o) (base_native_handler)
+darjeeling.a(jlib_darjeeling2.o)
+                              darjeeling.a(main.o) (darjeeling2_native_handler)
+darjeeling.a(jstring.o)       darjeeling.a(execution.o) (dj_jstring_createFromGlobalId)
+darjeeling.a(object.o)        darjeeling.a(execution.o) (dj_object_getRuntimeId)
+darjeeling.a(panic.o)         darjeeling.a(execution.o) (dj_panic)
+darjeeling.a(vm.o)            darjeeling.a(main.o) (dj_vm_countLiveThreads)
+darjeeling.a(vmthread.o)      darjeeling.a(execution.o) (dj_thread_pushFrame)
+darjeeling.a(infusions.o)     darjeeling.a(main.o) (di_archive_size)
+darjeeling.a(array.o)         darjeeling.a(heap.o) (dj_ref_array_updatePointers)
+darjeeling.a(java_lang_Object.o)
+                              darjeeling.a(jlib_base.o) (java_lang_Object_int_hashCode)
+darjeeling.a(java_lang_Runtime.o)
+                              darjeeling.a(jlib_base.o) (java_lang_Runtime_void_exit_int)
+darjeeling.a(java_lang_System.o)
+                              darjeeling.a(jlib_base.o) (java_lang_System_void_arraycopy_java_lang_Object_int_java_lang_Object_int_int)
+darjeeling.a(java_lang_Thread.o)
+                              darjeeling.a(jlib_base.o) (java_lang_Thread_void_yield)
+darjeeling.a(javax_darjeeling_Darjeeling.o)
+                              darjeeling.a(jlib_darjeeling2.o) (javax_darjeeling_Darjeeling_java_lang_Thread_getThread_short)
+darjeeling.a(javax_darjeeling_actuators_Leds.o)
+                              darjeeling.a(jlib_darjeeling2.o) (javax_darjeeling_actuators_Leds_void_set_short_boolean)
+darjeeling.a(javax_darjeeling_actuators_Servo.o)
+                              darjeeling.a(jlib_darjeeling2.o) (javax_darjeeling_actuators_Servo_void_setPulseRange_short_short_short)
+darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                              darjeeling.a(jlib_darjeeling2.o) (javax_darjeeling_io_ProgramFlash_void__write_int_byte__)
+darjeeling.a(javax_darjeeling_io_Serial.o)
+                              darjeeling.a(jlib_darjeeling2.o) (javax_darjeeling_io_SerialInputStream_void__waitForByte_byte)
+darjeeling.a(javax_darjeeling_radio_Radio.o)
+                              darjeeling.a(jlib_darjeeling2.o) (javax_darjeeling_radio_Radio_boolean__send_short_byte__)
+darjeeling.a(javax_darjeeling_sensors_ADC.o)
+                              darjeeling.a(jlib_darjeeling2.o) (javax_darjeeling_sensors_ADC_byte_getResolution_short)
+darjeeling.a(javax_darjeeling_sensors_Buttons.o)
+                              darjeeling.a(jlib_darjeeling2.o) (javax_darjeeling_sensors_Buttons_void_waitForDown_short)
+darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                              darjeeling.a(jlib_base.o) (javax_darjeeling_vm_Infusion_void__unload_java_lang_Object)
+darjeeling.a(util.o)          darjeeling.a(vm.o) (dj_di_strEquals)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_mulsi3.o)
+                              darjeeling.a(execution.o) (__mulsi3)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_udivmodsi4.o)
+                              darjeeling.a(avr.o) (__udivmodsi4)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_divmodsi4.o)
+                              darjeeling.a(execution.o) (__divmodsi4)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o (exit)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clear_bss.o)
+                              darjeeling.a(main.o) (__do_clear_bss)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o)
+                              darjeeling.a(execution.o) (__muldi3)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_lshrdi3.o)
+                              darjeeling.a(execution.o) (__lshrdi3)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashldi3.o)
+                              darjeeling.a(execution.o) (__ashldi3)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashrdi3.o)
+                              darjeeling.a(execution.o) (__ashrdi3)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+                              darjeeling.a(execution.o) (__moddi3)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_prologue.o)
+                              /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o) (__prologue_saves__)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_epilogue.o)
+                              /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o) (__epilogue_restores__)
+/usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clz.o)
+                              /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o) (__clz_tab)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+                              darjeeling.a(javax_darjeeling_Darjeeling.o) (rand)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memcpy.o)
+                              darjeeling.a(java_lang_System.o) (memcpy)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memmove.o)
+                              darjeeling.a(heap.o) (memmove)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memset.o)
+                              darjeeling.a(infusion.o) (memset)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fgetc.o)
+                              darjeeling.a(javax_darjeeling_io_Serial.o) (fgetc)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(iob.o)
+                              darjeeling.a(javax_darjeeling_io_Serial.o) (__iob)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+                              darjeeling.a(avr.o) (vsnprintf)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                              /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vsnprintf.o) (vfprintf)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                              /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (strnlen_P)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen.o)
+                              /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (strnlen)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fputc.o)
+                              /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (fputc)
+/usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                              /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o) (__ultoa_invert)
+
+Allocating common symbols
+Common symbol       size              file
+
+mem                 0x800             darjeeling.a(main.o)
+__iob               0x6               /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(iob.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+Address of section .bootloader set to 0x1e000
+LOAD darjeeling.a
+LOAD /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a
+LOAD /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a
+LOAD /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0xedf6
+ *(.vectors)
+ .vectors       0x00000000       0xe4 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x000000e4      0x1b6 darjeeling.a(execution.o)
+ .progmem.gcc_sw_table
+                0x0000029a       0xa2 darjeeling.a(jlib_darjeeling2.o)
+ *(.progmem*)
+ .progmem.data  0x0000033c     0x4ffa darjeeling.a(infusions.o)
+                0x0000033c                di_archive_data
+                0x00005336                . = ALIGN (0x2)
+                0x00005336                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00005336        0x0 linker stubs
+ *(.trampolines*)
+                0x00005336                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00005336                __ctors_start = .
+ *(.ctors)
+                0x00005336                __ctors_end = .
+                0x00005336                __dtors_start = .
+ *(.dtors)
+                0x00005336                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00005336        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+                0x00005336                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00005336        0xc /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00005342       0x1a /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+                0x00005342                __do_copy_data
+ .init4         0x0000535c       0x10 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clear_bss.o)
+                0x0000535c                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000536c        0x8 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+ *(.init9)
+ *(.text)
+ .text          0x00005374        0x4 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+                0x00005374                __vector_38
+                0x00005374                __vector_22
+                0x00005374                __vector_28
+                0x00005374                __vector_1
+                0x00005374                __vector_32
+                0x00005374                __vector_34
+                0x00005374                __vector_24
+                0x00005374                __vector_12
+                0x00005374                __vector_55
+                0x00005374                __vector_46
+                0x00005374                __bad_interrupt
+                0x00005374                __vector_6
+                0x00005374                __vector_31
+                0x00005374                __vector_35
+                0x00005374                __vector_39
+                0x00005374                __vector_3
+                0x00005374                __vector_30
+                0x00005374                __vector_45
+                0x00005374                __vector_25
+                0x00005374                __vector_11
+                0x00005374                __vector_54
+                0x00005374                __vector_13
+                0x00005374                __vector_17
+                0x00005374                __vector_19
+                0x00005374                __vector_56
+                0x00005374                __vector_7
+                0x00005374                __vector_49
+                0x00005374                __vector_41
+                0x00005374                __vector_43
+                0x00005374                __vector_27
+                0x00005374                __vector_5
+                0x00005374                __vector_33
+                0x00005374                __vector_47
+                0x00005374                __vector_52
+                0x00005374                __vector_37
+                0x00005374                __vector_4
+                0x00005374                __vector_44
+                0x00005374                __vector_51
+                0x00005374                __vector_9
+                0x00005374                __vector_2
+                0x00005374                __vector_21
+                0x00005374                __vector_15
+                0x00005374                __vector_36
+                0x00005374                __vector_29
+                0x00005374                __vector_40
+                0x00005374                __vector_8
+                0x00005374                __vector_26
+                0x00005374                __vector_48
+                0x00005374                __vector_14
+                0x00005374                __vector_53
+                0x00005374                __vector_10
+                0x00005374                __vector_50
+                0x00005374                __vector_16
+                0x00005374                __vector_18
+                0x00005374                __vector_20
+                0x00005374                __vector_42
+ .text          0x00005378       0xc2 darjeeling.a(main.o)
+                0x00005378                main
+ .text          0x0000543a      0x1e8 darjeeling.a(avr.o)
+                0x0000543a                __vector_23
+                0x000054ca                avr_millis
+                0x000054e6                avr_delay
+                0x0000552a                avr_timerInit
+                0x0000554e                avr_serialInit
+                0x00005592                avr_serialWrite
+                0x000055a2                avr_serialPrint
+                0x000055ba                avr_serialVPrint
+                0x00005606                avr_serialPrintf
+ .text          0x00005622       0x3c darjeeling.a(djtimer.o)
+                0x00005622                dj_timer_getTimeMillis
+                0x00005658                dj_timer_init
+ .text          0x0000565e     0x37da darjeeling.a(execution.o)
+                0x00005694                dj_exec_setVM
+                0x0000569e                dj_exec_getVM
+                0x000056a8                dj_exec_breakExecution
+                0x000056b6                dj_exec_updatePointers
+                0x00005710                dj_exec_getCurrentThread
+                0x00005736                dj_exec_getCurrentInfusion
+                0x000059f2                dj_exec_stackPushShort
+                0x000059f8                dj_exec_stackPushInt
+                0x000059fe                dj_exec_stackPushLong
+                0x00005a04                dj_exec_stackPushRef
+                0x00005a0a                dj_exec_stackPopShort
+                0x00005a10                dj_exec_stackPopInt
+                0x00005a16                dj_exec_stackPopLong
+                0x00005a1c                dj_exec_stackPopRef
+                0x00005a22                dj_exec_stackPeekShort
+                0x00005a32                dj_exec_stackPeekInt
+                0x00005a38                dj_exec_stackPeekLong
+                0x00005a66                dj_exec_stackPeekRef
+                0x00005d6a                dj_exec_deactivateThread
+                0x00005fb6                dj_exec_activate_thread
+                0x000060ba                dj_exec_throw
+                0x000062fc                dj_exec_throwHere
+                0x0000630a                dj_exec_createAndThrow
+                0x0000673a                dj_exec_run
+ .text          0x00008e38      0x854 darjeeling.a(global_id.o)
+                0x00008e42                dj_global_id_resolve
+                0x00008e88                dj_global_id_equals
+                0x00008ed2                dj_global_id_getRuntimeClassId
+                0x00008efe                dj_global_id_getString
+                0x00008f28                dj_global_id_getMethodImplementation
+                0x00008f52                dj_global_id_getClassDefinition
+                0x00009026                dj_global_id_isJavaLangObject
+                0x00009078                dj_global_id_isEqualToOrChildOf
+                0x0000916c                dj_global_id_implements
+                0x00009300                dj_global_id_testClassType
+                0x00009348                dj_global_id_testType
+                0x00009454                dj_global_id_mapToInfusion
+                0x00009484                dj_global_id_lookupVirtualMethod
+ .text          0x0000968c      0x840 darjeeling.a(heap.o)
+                0x000096da                dj_mem_init
+                0x0000972a                dj_mem_free
+                0x0000976a                dj_mem_getSize
+                0x00009774                dj_mem_getFree
+                0x0000978c                dj_mem_setPanicExceptionObject
+                0x00009796                dj_mem_getPanicExceptionObject
+                0x000097a0                dj_mem_countSafePointers
+                0x000097e8                dj_mem_removeSafePointer
+                0x00009844                dj_mem_shiftRuntimeIDs
+                0x000098b6                dj_mem_addSafePointer
+                0x0000992a                dj_mem_compact
+                0x00009bdc                dj_mem_gc
+                0x00009e32                dj_mem_alloc
+ .text          0x00009ecc      0x3de darjeeling.a(infusion.o)
+                0x00009f08                dj_infusion_getReferencedInfusionIndex
+                0x00009f54                dj_infusion_markRootSet
+                0x00009fa8                dj_infusion_updatePointers
+                0x0000a0a6                dj_infusion_getName
+                0x0000a0ea                dj_infusion_getClassDefinition
+                0x0000a112                dj_infusion_getMethodImplementation
+                0x0000a13a                dj_infusion_getString
+                0x0000a166                dj_infusion_destroy
+                0x0000a16c                dj_infusion_create
+ .text          0x0000a2aa      0x14c darjeeling.a(jlib_base.o)
+                0x0000a2aa                base_native_handler
+ .text          0x0000a3f6      0x130 darjeeling.a(jlib_darjeeling2.o)
+                0x0000a3f6                darjeeling2_native_handler
+ .text          0x0000a526      0x1ce darjeeling.a(jstring.o)
+                0x0000a526                dj_jstring_create
+                0x0000a5f4                dj_jstring_createFromGlobalId
+                0x0000a698                dj_jstring_createFromStr
+ .text          0x0000a6f4       0x4a darjeeling.a(object.o)
+                0x0000a6f4                dj_object_getRuntimeId
+                0x0000a6fe                dj_object_create
+ .text          0x0000a73e        0x8 darjeeling.a(panic.o)
+                0x0000a73e                dj_panic
+ .text          0x0000a746     0x1448 darjeeling.a(vm.o)
+                0x0000a766                dj_vm_addInfusion
+                0x0000a7ce                dj_vm_countInfusions
+                0x0000a7f0                dj_vm_getInfusionId
+                0x0000a816                dj_vm_getInfusion
+                0x0000a83c                dj_vm_setSystemInfusion
+                0x0000a844                dj_vm_addThread
+                0x0000a892                dj_vm_removeThread
+                0x0000a8d0                dj_vm_countThreads
+                0x0000a8f2                dj_vm_notify
+                0x0000a926                dj_vm_getThread
+                0x0000a94c                dj_vm_getThreadById
+                0x0000a970                dj_vm_countLiveThreads
+                0x0000a9ac                dj_vm_updatePointers
+                0x0000aa00                dj_vm_getSystemInfusion
+                0x0000aa08                dj_vm_getRuntimeClass
+                0x0000aaa4                dj_vm_runClassInitialisers
+                0x0000ac62                dj_vm_checkFinishedThreads
+                0x0000acba                dj_vm_getRuntimeClassDefinition
+                0x0000ad02                dj_vm_removeMonitor
+                0x0000ae2c                dj_vm_destroy
+                0x0000ae32                dj_vm_getMonitor
+                0x0000afa6                dj_vm_markRootSet
+                0x0000b002                dj_vm_activateThread
+                0x0000b03e                dj_vm_getVMSleepTime
+                0x0000b23a                dj_vm_wakeThreads
+                0x0000b358                dj_vm_schedule
+                0x0000b3a8                dj_vm_getSysLibClassRuntimeId
+                0x0000b3d8                dj_vm_createSysLibObject
+                0x0000b454                dj_vm_unloadInfusion
+                0x0000b540                dj_vm_safeToUnload
+                0x0000b57a                dj_vm_lookupInfusion
+                0x0000b5b2                dj_vm_loadInfusion
+                0x0000b814                dj_vm_loadSystemInfusion
+                0x0000b83c                dj_vm_loadInfusionArchive
+                0x0000bb5c                dj_vm_create
+ .text          0x0000bb8e      0x79c darjeeling.a(vmthread.o)
+                0x0000bc04                dj_thread_pushFrame
+                0x0000bc1e                dj_thread_popFrame
+                0x0000bc32                dj_thread_updatePointers
+                0x0000bc78                dj_monitor_block_updatePointers
+                0x0000bcd6                dj_monitor_markRootSet
+                0x0000bd1e                dj_thread_create
+                0x0000bd5c                dj_monitor_block_create
+                0x0000bd7c                dj_frame_updatePointers
+                0x0000be64                dj_frame_markRootSet
+                0x0000bf2e                dj_thread_markRootSet
+                0x0000bf7a                dj_frame_create
+                0x0000c088                dj_thread_wait
+                0x0000c1ac                dj_thread_sleep
+                0x0000c2a8                dj_thread_destroy
+                0x0000c2ae                dj_thread_create_and_run
+ .text          0x0000c32a        0x0 darjeeling.a(infusions.o)
+ .text          0x0000c32a      0x152 darjeeling.a(array.o)
+                0x0000c32a                dj_ref_array_updatePointers
+                0x0000c378                dj_ref_array_destroy
+                0x0000c37e                dj_int_array_destroy
+                0x0000c384                dj_ref_array_create
+                0x0000c3da                dj_int_array_create
+ .text          0x0000c47c      0x1bc darjeeling.a(java_lang_Object.o)
+                0x0000c47c                java_lang_Object_int_hashCode
+                0x0000c492                java_lang_Object_java_lang_String_toString
+                0x0000c564                java_lang_Object_void_notifyAll
+                0x0000c580                java_lang_Object_void_notify
+                0x0000c59c                java_lang_Object_void_wait
+                0x0000c5d2                java_lang_Object_void_wait_int
+ .text          0x0000c638       0x2c darjeeling.a(java_lang_Runtime.o)
+                0x0000c638                java_lang_Runtime_void_exit_int
+                0x0000c63a                java_lang_Runtime_void_gc
+                0x0000c640                java_lang_Runtime_int_totalMemory
+                0x0000c652                java_lang_Runtime_int_freeMemory
+ .text          0x0000c664      0x2b8 darjeeling.a(java_lang_System.o)
+                0x0000c66e                java_lang_System_void_arraycopy_java_lang_Object_int_java_lang_Object_int_int
+                0x0000c912                java_lang_System_long_currentTimeMillis
+ .text          0x0000c91c      0x1fa darjeeling.a(java_lang_Thread.o)
+                0x0000c91c                java_lang_Thread_void_yield
+                0x0000c922                java_lang_Thread_int_activeCount
+                0x0000c93c                java_lang_Thread_short__getCurrentThreadId
+                0x0000c94c                java_lang_Thread_void_sleep_long
+                0x0000c998                java_lang_Thread_void__setRunnable_short_java_lang_Runnable
+                0x0000c9c6                java_lang_Thread_short__getStatus_short
+                0x0000c9f4                java_lang_Thread_void__start_short
+                0x0000cae6                java_lang_Thread_short__create
+ .text          0x0000cb16      0x17e darjeeling.a(javax_darjeeling_Darjeeling.o)
+                0x0000cb16                javax_darjeeling_Darjeeling_java_lang_Thread_getThread_short
+                0x0000cb56                javax_darjeeling_Darjeeling_short_getNrThreads
+                0x0000cb64                javax_darjeeling_Darjeeling_int_random
+                0x0000cb7a                javax_darjeeling_Darjeeling_int_getNodeId
+                0x0000cb88                javax_darjeeling_Darjeeling_int_getMemFree
+                0x0000cb9a                javax_darjeeling_Darjeeling_void__print_java_lang_String
+                0x0000cc12                javax_darjeeling_Darjeeling_void_assertTrue_int_boolean
+ .text          0x0000cc94       0x2a darjeeling.a(javax_darjeeling_actuators_Leds.o)
+                0x0000cc94                javax_darjeeling_actuators_Leds_void_set_short_boolean
+                0x0000ccb4                javax_darjeeling_actuators_Leds_short_getNrLeds
+ .text          0x0000ccbe       0x22 darjeeling.a(javax_darjeeling_actuators_Servo.o)
+                0x0000ccbe                javax_darjeeling_actuators_Servo_void_setPulseRange_short_short_short
+                0x0000cccc                javax_darjeeling_actuators_Servo_void_set_short_short
+                0x0000ccd6                javax_darjeeling_actuators_Servo_short_getNrServos
+ .text          0x0000cce0       0x46 darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                0x0000cce0                javax_darjeeling_io_ProgramFlash_void__write_int_byte__
+                0x0000ccee                javax_darjeeling_io_ProgramFlash_byte____read_int
+                0x0000cd06                javax_darjeeling_io_ProgramFlash_int_getBlockCount
+                0x0000cd18                javax_darjeeling_io_ProgramFlash_short_getBlockSize
+ .text          0x0000cd26       0x58 darjeeling.a(javax_darjeeling_io_Serial.o)
+                0x0000cd26                javax_darjeeling_io_SerialInputStream_void__waitForByte_byte
+                0x0000cd2c                javax_darjeeling_io_SerialOutputStream_void__write_byte_int
+                0x0000cd42                javax_darjeeling_io_SerialInputStream_short__read_byte
+                0x0000cd58                javax_darjeeling_io_Serial_byte_getNrSerialPorts
+                0x0000cd62                javax_darjeeling_io_Serial_int_getDefaultBaudRate_byte
+                0x0000cd74                javax_darjeeling_io_Serial_void_setBaudRate_byte_int
+ .text          0x0000cd7e       0x78 darjeeling.a(javax_darjeeling_radio_Radio.o)
+                0x0000cd7e                javax_darjeeling_radio_Radio_boolean__send_short_byte__
+                0x0000cd88                javax_darjeeling_radio_Radio_void__broadcast_byte__
+                0x0000cd92                javax_darjeeling_radio_Radio_short_getMaxMessageLength
+                0x0000cd9c                javax_darjeeling_radio_Radio_void_setOutputPower_short
+                0x0000cda6                javax_darjeeling_radio_Radio_short_getLastChannel
+                0x0000cdb0                javax_darjeeling_radio_Radio_short_getFirstChannel
+                0x0000cdba                javax_darjeeling_radio_Radio_void_setChannel_short
+                0x0000cdc4                javax_darjeeling_radio_Radio_byte__getNumMessages
+                0x0000cdce                javax_darjeeling_radio_Radio_void__init_int
+                0x0000cdd8                javax_darjeeling_radio_Radio_byte____readBytes
+                0x0000cde2                javax_darjeeling_radio_Radio_void__waitForMessage
+                0x0000cdec                javax_darjeeling_radio_Radio_boolean_hasRadio
+ .text          0x0000cdf6       0x22 darjeeling.a(javax_darjeeling_sensors_ADC.o)
+                0x0000cdf6                javax_darjeeling_sensors_ADC_byte_getResolution_short
+                0x0000ce00                javax_darjeeling_sensors_ADC_int_read_short
+                0x0000ce0e                javax_darjeeling_sensors_ADC_short_getNrADCs
+ .text          0x0000ce18       0x18 darjeeling.a(javax_darjeeling_sensors_Buttons.o)
+                0x0000ce18                javax_darjeeling_sensors_Buttons_void_waitForDown_short
+                0x0000ce1a                javax_darjeeling_sensors_Buttons_void_waitForUp_short
+                0x0000ce1c                javax_darjeeling_sensors_Buttons_boolean_pressed_short
+                0x0000ce26                javax_darjeeling_sensors_Buttons_short_getNrButtons
+ .text          0x0000ce30      0x16e darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                0x0000ce30                javax_darjeeling_vm_Infusion_void__unload_java_lang_Object
+                0x0000ce88                javax_darjeeling_vm_Infusion_java_lang_Object__getImportedInfusion_java_lang_Object_short
+                0x0000ced0                javax_darjeeling_vm_Infusion_short__getImportedInfusionCount_java_lang_Object
+                0x0000cee0                javax_darjeeling_vm_Infusion_char____getName_java_lang_Object
+                0x0000cf58                javax_darjeeling_vm_Infusion_short_getInfusionCount
+                0x0000cf66                javax_darjeeling_vm_Infusion_java_lang_Object__getInfusion_short
+ .text          0x0000cf9e       0x60 darjeeling.a(util.o)
+                0x0000cf9e                dj_di_strEquals
+                0x0000cfd0                dj_di_strEqualsDirectStr
+ .text          0x0000cffe        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_mulsi3.o)
+ .text          0x0000cffe        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_udivmodsi4.o)
+ .text          0x0000cffe        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_divmodsi4.o)
+ .text          0x0000cffe        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_exit.o)
+ .text          0x0000cffe        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clear_bss.o)
+ .text          0x0000cffe      0x1f6 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o)
+                0x0000cffe                __muldi3
+ .text          0x0000d1f4       0xfe /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_lshrdi3.o)
+                0x0000d1f4                __lshrdi3
+ .text          0x0000d2f2       0xfe /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashldi3.o)
+                0x0000d2f2                __ashldi3
+ .text          0x0000d3f0      0x10a /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashrdi3.o)
+                0x0000d3f0                __ashrdi3
+ .text          0x0000d4fa     0x107a /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+                0x0000d4fa                __moddi3
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_prologue.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_epilogue.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clz.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memcpy.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memmove.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memset.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fgetc.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(iob.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fputc.o)
+ .text          0x0000e574        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                0x0000e574                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x0000e574       0x3e /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_mulsi3.o)
+                0x0000e574                __mulsi3
+ .text.libgcc   0x0000e5b2       0x44 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_udivmodsi4.o)
+                0x0000e5b2                __udivmodsi4
+ .text.libgcc   0x0000e5f6       0x36 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_divmodsi4.o)
+                0x0000e5f6                __divmodsi4
+ .text.libgcc   0x0000e62c        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_exit.o)
+ .text.libgcc   0x0000e62c        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000e62c       0x38 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_prologue.o)
+                0x0000e62c                __prologue_saves__
+ .text.libgcc   0x0000e664       0x36 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_epilogue.o)
+                0x0000e664                __epilogue_restores__
+ .text.avr-libc
+                0x0000e69a       0xd6 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+                0x0000e74a                rand_r
+                0x0000e750                rand
+                0x0000e75a                srand
+ .text.avr-libc
+                0x0000e770       0x12 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memcpy.o)
+                0x0000e770                memcpy
+ .text.avr-libc
+                0x0000e782       0x24 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memmove.o)
+                0x0000e782                memmove
+ .text.avr-libc
+                0x0000e7a6        0xe /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memset.o)
+                0x0000e7a6                memset
+ .text.avr-libc
+                0x0000e7b4       0x84 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fgetc.o)
+                0x0000e7b4                fgetc
+ .text.avr-libc
+                0x0000e838       0x6e /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+                0x0000e838                vsnprintf
+ .text.avr-libc
+                0x0000e8a6      0x40c /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                0x0000e8a6                vfprintf
+ .text.avr-libc
+                0x0000ecb2       0x16 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                0x0000ecb2                strnlen_P
+ .text.avr-libc
+                0x0000ecc8       0x16 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen.o)
+                0x0000ecc8                strnlen
+ .text.avr-libc
+                0x0000ecde       0x58 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fputc.o)
+                0x0000ecde                fputc
+ .text.avr-libc
+                0x0000ed36       0xbc /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                0x0000ed36                __ultoa_invert
+                0x0000edf2                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000edf2        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_exit.o)
+                0x0000edf2                exit
+                0x0000edf2                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000edf2        0x4 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000edf6                _etext = .
+
+.data           0x00800200      0x2ae load address 0x0000edf6
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800200        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+ .data          0x00800200       0x19 darjeeling.a(main.o)
+ .data          0x00800219        0x0 darjeeling.a(avr.o)
+ .data          0x00800219        0x0 darjeeling.a(djtimer.o)
+ .data          0x00800219       0x5b darjeeling.a(execution.o)
+ .data          0x00800274        0x0 darjeeling.a(global_id.o)
+ .data          0x00800274       0x40 darjeeling.a(heap.o)
+ .data          0x008002b4        0x0 darjeeling.a(infusion.o)
+ .data          0x008002b4        0x0 darjeeling.a(jlib_base.o)
+ .data          0x008002b4        0x0 darjeeling.a(jlib_darjeeling2.o)
+ .data          0x008002b4        0x0 darjeeling.a(jstring.o)
+ .data          0x008002b4        0x0 darjeeling.a(object.o)
+ .data          0x008002b4        0x0 darjeeling.a(panic.o)
+ .data          0x008002b4       0xb3 darjeeling.a(vm.o)
+ .data          0x00800367        0x0 darjeeling.a(vmthread.o)
+ .data          0x00800367        0x2 darjeeling.a(infusions.o)
+                0x00800367                di_archive_size
+ .data          0x00800369        0x0 darjeeling.a(array.o)
+ .data          0x00800369        0x0 darjeeling.a(java_lang_Object.o)
+ .data          0x00800369        0x0 darjeeling.a(java_lang_Runtime.o)
+ .data          0x00800369        0x0 darjeeling.a(java_lang_System.o)
+ .data          0x00800369        0x0 darjeeling.a(java_lang_Thread.o)
+ .data          0x00800369       0x41 darjeeling.a(javax_darjeeling_Darjeeling.o)
+ .data          0x008003aa        0x0 darjeeling.a(javax_darjeeling_actuators_Leds.o)
+ .data          0x008003aa        0x0 darjeeling.a(javax_darjeeling_actuators_Servo.o)
+ .data          0x008003aa        0x0 darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+ .data          0x008003aa        0x0 darjeeling.a(javax_darjeeling_io_Serial.o)
+ .data          0x008003aa        0x0 darjeeling.a(javax_darjeeling_radio_Radio.o)
+ .data          0x008003aa        0x0 darjeeling.a(javax_darjeeling_sensors_ADC.o)
+ .data          0x008003aa        0x0 darjeeling.a(javax_darjeeling_sensors_Buttons.o)
+ .data          0x008003aa        0x0 darjeeling.a(javax_darjeeling_vm_Infusion.o)
+ .data          0x008003aa        0x0 darjeeling.a(util.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_mulsi3.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_udivmodsi4.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_divmodsi4.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_exit.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clear_bss.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_lshrdi3.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashldi3.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashrdi3.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_prologue.o)
+ .data          0x008003aa        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_epilogue.o)
+ .data          0x008003aa      0x100 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clz.o)
+                0x008003aa                __clz_tab
+ .data          0x008004aa        0x4 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+ .data          0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memcpy.o)
+ .data          0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memmove.o)
+ .data          0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memset.o)
+ .data          0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fgetc.o)
+ .data          0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(iob.o)
+ .data          0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+ .data          0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .data          0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+ .data          0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen.o)
+ .data          0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fputc.o)
+ .data          0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008004ae                . = ALIGN (0x2)
+                0x008004ae                _edata = .
+                0x008004ae                PROVIDE (__data_end, .)
+
+.bss            0x008004ae      0x839
+                0x008004ae                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008004ae        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+ .bss           0x008004ae        0x0 darjeeling.a(main.o)
+ .bss           0x008004ae        0x9 darjeeling.a(avr.o)
+                0x008004ae                timer0_overflow_count
+                0x008004b2                timer0_millis
+ .bss           0x008004b7        0x0 darjeeling.a(djtimer.o)
+ .bss           0x008004b7       0x18 darjeeling.a(execution.o)
+ .bss           0x008004cf        0x0 darjeeling.a(global_id.o)
+ .bss           0x008004cf       0x12 darjeeling.a(heap.o)
+ .bss           0x008004e1        0x0 darjeeling.a(infusion.o)
+ .bss           0x008004e1        0x0 darjeeling.a(jlib_base.o)
+ .bss           0x008004e1        0x0 darjeeling.a(jlib_darjeeling2.o)
+ .bss           0x008004e1        0x0 darjeeling.a(jstring.o)
+ .bss           0x008004e1        0x0 darjeeling.a(object.o)
+ .bss           0x008004e1        0x0 darjeeling.a(panic.o)
+ .bss           0x008004e1        0x0 darjeeling.a(vm.o)
+ .bss           0x008004e1        0x0 darjeeling.a(vmthread.o)
+ .bss           0x008004e1        0x0 darjeeling.a(infusions.o)
+ .bss           0x008004e1        0x0 darjeeling.a(array.o)
+ .bss           0x008004e1        0x0 darjeeling.a(java_lang_Object.o)
+ .bss           0x008004e1        0x0 darjeeling.a(java_lang_Runtime.o)
+ .bss           0x008004e1        0x0 darjeeling.a(java_lang_System.o)
+ .bss           0x008004e1        0x0 darjeeling.a(java_lang_Thread.o)
+ .bss           0x008004e1        0x0 darjeeling.a(javax_darjeeling_Darjeeling.o)
+ .bss           0x008004e1        0x0 darjeeling.a(javax_darjeeling_actuators_Leds.o)
+ .bss           0x008004e1        0x0 darjeeling.a(javax_darjeeling_actuators_Servo.o)
+ .bss           0x008004e1        0x0 darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+ .bss           0x008004e1        0x0 darjeeling.a(javax_darjeeling_io_Serial.o)
+ .bss           0x008004e1        0x0 darjeeling.a(javax_darjeeling_radio_Radio.o)
+ .bss           0x008004e1        0x0 darjeeling.a(javax_darjeeling_sensors_ADC.o)
+ .bss           0x008004e1        0x0 darjeeling.a(javax_darjeeling_sensors_Buttons.o)
+ .bss           0x008004e1        0x0 darjeeling.a(javax_darjeeling_vm_Infusion.o)
+ .bss           0x008004e1        0x0 darjeeling.a(util.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_mulsi3.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_udivmodsi4.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_divmodsi4.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_exit.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clear_bss.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_lshrdi3.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashldi3.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashrdi3.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_prologue.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_epilogue.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clz.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memcpy.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memmove.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memset.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fgetc.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(iob.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fputc.o)
+ .bss           0x008004e1        0x0 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x008004e1      0x800 darjeeling.a(main.o)
+                0x008004e1                mem
+ COMMON         0x00800ce1        0x6 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(iob.o)
+                0x00800ce1                __iob
+                0x00800ce7                PROVIDE (__bss_end, .)
+                0x0000edf6                __data_load_start = LOADADDR (.data)
+                0x0000f0a4                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800ce7        0x0
+                0x00800ce7                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800ce7                PROVIDE (__noinit_end, .)
+                0x00800ce7                _end = .
+                0x00800ce7                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x2484
+ *(.stab)
+ .stab          0x00000000      0x750 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+ .stab          0x00000750      0x330 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+                                0x33c (size before relaxing)
+ .stab          0x00000a80       0x84 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memcpy.o)
+                                 0x90 (size before relaxing)
+ .stab          0x00000b04       0xe4 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memmove.o)
+                                 0xf0 (size before relaxing)
+ .stab          0x00000be8       0x6c /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memset.o)
+                                 0x78 (size before relaxing)
+ .stab          0x00000c54      0x420 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fgetc.o)
+                                0x42c (size before relaxing)
+ .stab          0x00001074      0x12c /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(iob.o)
+                                0x30c (size before relaxing)
+ .stab          0x000011a0      0x210 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+                                0x3f0 (size before relaxing)
+ .stab          0x000013b0      0x948 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                                0xb58 (size before relaxing)
+ .stab          0x00001cf8       0x9c /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x00001d94       0x9c /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen.o)
+                                 0xa8 (size before relaxing)
+ .stab          0x00001e30      0x1d4 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fputc.o)
+                                0x3b4 (size before relaxing)
+ .stab          0x00002004      0x480 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                                0x48c (size before relaxing)
+
+.stabstr        0x00000000      0xe6e
+ *(.stabstr)
+ .stabstr       0x00000000      0xe6e /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(darjeeling.elf elf32-avr)
+LOAD linker stubs
+
+.bootloader     0x0001e000        0x0
+
+Cross Reference Table
+
+Symbol                                            File
+__ashldi3                                         /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashldi3.o)
+                                                  darjeeling.a(execution.o)
+__ashrdi3                                         /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashrdi3.o)
+                                                  darjeeling.a(execution.o)
+__bad_interrupt                                   /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__bss_end                                         /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clear_bss.o)
+__clz_tab                                         /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clz.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+__data_end                                        /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__data_load_start                                 /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__data_start                                      /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__divmodsi4                                       /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_divmodsi4.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+                                                  darjeeling.a(execution.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clear_bss.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fputc.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(iob.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fgetc.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clz.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashrdi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashldi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_lshrdi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o)
+                                                  darjeeling.a(util.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(javax_darjeeling_sensors_Buttons.o)
+                                                  darjeeling.a(javax_darjeeling_sensors_ADC.o)
+                                                  darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(javax_darjeeling_actuators_Servo.o)
+                                                  darjeeling.a(javax_darjeeling_actuators_Leds.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(java_lang_System.o)
+                                                  darjeeling.a(java_lang_Runtime.o)
+                                                  darjeeling.a(java_lang_Object.o)
+                                                  darjeeling.a(array.o)
+                                                  darjeeling.a(infusions.o)
+                                                  darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(panic.o)
+                                                  darjeeling.a(object.o)
+                                                  darjeeling.a(jstring.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+                                                  darjeeling.a(jlib_base.o)
+                                                  darjeeling.a(infusion.o)
+                                                  darjeeling.a(heap.o)
+                                                  darjeeling.a(global_id.o)
+                                                  darjeeling.a(execution.o)
+                                                  darjeeling.a(djtimer.o)
+                                                  darjeeling.a(avr.o)
+                                                  darjeeling.a(main.o)
+__do_copy_data                                    /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fputc.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(iob.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fgetc.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_clz.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashrdi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_ashldi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_lshrdi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o)
+                                                  darjeeling.a(util.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(javax_darjeeling_sensors_Buttons.o)
+                                                  darjeeling.a(javax_darjeeling_sensors_ADC.o)
+                                                  darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(javax_darjeeling_actuators_Servo.o)
+                                                  darjeeling.a(javax_darjeeling_actuators_Leds.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(java_lang_System.o)
+                                                  darjeeling.a(java_lang_Runtime.o)
+                                                  darjeeling.a(java_lang_Object.o)
+                                                  darjeeling.a(array.o)
+                                                  darjeeling.a(infusions.o)
+                                                  darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(panic.o)
+                                                  darjeeling.a(object.o)
+                                                  darjeeling.a(jstring.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+                                                  darjeeling.a(jlib_base.o)
+                                                  darjeeling.a(infusion.o)
+                                                  darjeeling.a(heap.o)
+                                                  darjeeling.a(global_id.o)
+                                                  darjeeling.a(execution.o)
+                                                  darjeeling.a(djtimer.o)
+                                                  darjeeling.a(avr.o)
+                                                  darjeeling.a(main.o)
+__epilogue_restores__                             /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_epilogue.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o)
+__heap_end                                        /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__init                                            /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__iob                                             /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(iob.o)
+                                                  darjeeling.a(javax_darjeeling_io_Serial.o)
+__lshrdi3                                         /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_lshrdi3.o)
+                                                  darjeeling.a(execution.o)
+__moddi3                                          /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+                                                  darjeeling.a(execution.o)
+__muldi3                                          /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o)
+                                                  darjeeling.a(execution.o)
+__mulsi3                                          /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_mulsi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(execution.o)
+__prologue_saves__                                /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_prologue.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_muldi3.o)
+__stack                                           /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__udivmodsi4                                      /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_udivmodsi4.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_moddi3.o)
+                                                  /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_divmodsi4.o)
+                                                  darjeeling.a(avr.o)
+__ultoa_invert                                    /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(ultoa_invert.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+__vector_1                                        /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_10                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_11                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_12                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_13                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_14                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_15                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_16                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_17                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_18                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_19                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_2                                        /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_20                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_21                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_22                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_23                                       darjeeling.a(avr.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_24                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_25                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_26                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_27                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_28                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_29                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_3                                        /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_30                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_31                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_32                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_33                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_34                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_35                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_36                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_37                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_38                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_39                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_4                                        /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_40                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_41                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_42                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_43                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_44                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_45                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_46                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_47                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_48                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_49                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_5                                        /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_50                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_51                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_52                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_53                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_54                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_55                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_56                                       /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_6                                        /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_7                                        /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_8                                        /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_9                                        /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vector_default                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+__vectors                                         /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+_exit                                             /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_exit.o)
+avr_delay                                         darjeeling.a(avr.o)
+avr_millis                                        darjeeling.a(avr.o)
+                                                  darjeeling.a(djtimer.o)
+avr_serialInit                                    darjeeling.a(avr.o)
+                                                  darjeeling.a(main.o)
+avr_serialPrint                                   darjeeling.a(avr.o)
+avr_serialPrintf                                  darjeeling.a(avr.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(heap.o)
+                                                  darjeeling.a(execution.o)
+avr_serialVPrint                                  darjeeling.a(avr.o)
+avr_serialWrite                                   darjeeling.a(avr.o)
+                                                  darjeeling.a(javax_darjeeling_io_Serial.o)
+avr_timerInit                                     darjeeling.a(avr.o)
+                                                  darjeeling.a(djtimer.o)
+base_native_handler                               darjeeling.a(jlib_base.o)
+                                                  darjeeling.a(main.o)
+darjeeling2_native_handler                        darjeeling.a(jlib_darjeeling2.o)
+                                                  darjeeling.a(main.o)
+di_archive_data                                   darjeeling.a(infusions.o)
+                                                  darjeeling.a(main.o)
+di_archive_size                                   darjeeling.a(infusions.o)
+                                                  darjeeling.a(main.o)
+dj_di_strEquals                                   darjeeling.a(util.o)
+                                                  darjeeling.a(vm.o)
+dj_di_strEqualsDirectStr                          darjeeling.a(util.o)
+                                                  darjeeling.a(vm.o)
+dj_exec_activate_thread                           darjeeling.a(execution.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(heap.o)
+dj_exec_breakExecution                            darjeeling.a(execution.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(java_lang_Object.o)
+dj_exec_createAndThrow                            darjeeling.a(execution.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(javax_darjeeling_sensors_ADC.o)
+                                                  darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(java_lang_System.o)
+                                                  darjeeling.a(java_lang_Object.o)
+dj_exec_deactivateThread                          darjeeling.a(execution.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(heap.o)
+dj_exec_getCurrentInfusion                        darjeeling.a(execution.o)
+                                                  darjeeling.a(global_id.o)
+dj_exec_getCurrentThread                          darjeeling.a(execution.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(java_lang_Object.o)
+                                                  darjeeling.a(heap.o)
+dj_exec_getVM                                     darjeeling.a(execution.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(java_lang_System.o)
+                                                  darjeeling.a(java_lang_Object.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(heap.o)
+                                                  darjeeling.a(global_id.o)
+dj_exec_run                                       darjeeling.a(execution.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(main.o)
+dj_exec_setVM                                     darjeeling.a(execution.o)
+                                                  darjeeling.a(main.o)
+dj_exec_stackPeekInt                              darjeeling.a(execution.o)
+dj_exec_stackPeekLong                             darjeeling.a(execution.o)
+dj_exec_stackPeekRef                              darjeeling.a(execution.o)
+                                                  darjeeling.a(java_lang_Object.o)
+dj_exec_stackPeekShort                            darjeeling.a(execution.o)
+dj_exec_stackPopInt                               darjeeling.a(execution.o)
+                                                  darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(java_lang_System.o)
+                                                  darjeeling.a(java_lang_Object.o)
+dj_exec_stackPopLong                              darjeeling.a(execution.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+dj_exec_stackPopRef                               darjeeling.a(execution.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(java_lang_System.o)
+dj_exec_stackPopShort                             darjeeling.a(execution.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(javax_darjeeling_sensors_ADC.o)
+                                                  darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(javax_darjeeling_actuators_Servo.o)
+                                                  darjeeling.a(javax_darjeeling_actuators_Leds.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+dj_exec_stackPushInt                              darjeeling.a(execution.o)
+                                                  darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(java_lang_Runtime.o)
+                                                  darjeeling.a(java_lang_Object.o)
+dj_exec_stackPushLong                             darjeeling.a(execution.o)
+                                                  darjeeling.a(java_lang_System.o)
+dj_exec_stackPushRef                              darjeeling.a(execution.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(java_lang_Object.o)
+dj_exec_stackPushShort                            darjeeling.a(execution.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(javax_darjeeling_sensors_Buttons.o)
+                                                  darjeeling.a(javax_darjeeling_sensors_ADC.o)
+                                                  darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(javax_darjeeling_actuators_Servo.o)
+                                                  darjeeling.a(javax_darjeeling_actuators_Leds.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+dj_exec_throw                                     darjeeling.a(execution.o)
+dj_exec_throwHere                                 darjeeling.a(execution.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+dj_exec_updatePointers                            darjeeling.a(execution.o)
+                                                  darjeeling.a(heap.o)
+dj_frame_create                                   darjeeling.a(vmthread.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(execution.o)
+dj_frame_markRootSet                              darjeeling.a(vmthread.o)
+dj_frame_updatePointers                           darjeeling.a(vmthread.o)
+                                                  darjeeling.a(heap.o)
+dj_global_id_equals                               darjeeling.a(global_id.o)
+dj_global_id_getClassDefinition                   darjeeling.a(global_id.o)
+                                                  darjeeling.a(java_lang_Object.o)
+                                                  darjeeling.a(execution.o)
+dj_global_id_getMethodImplementation              darjeeling.a(global_id.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(vmthread.o)
+                                                  darjeeling.a(execution.o)
+dj_global_id_getRuntimeClassId                    darjeeling.a(global_id.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(execution.o)
+dj_global_id_getString                            darjeeling.a(global_id.o)
+dj_global_id_implements                           darjeeling.a(global_id.o)
+dj_global_id_isEqualToOrChildOf                   darjeeling.a(global_id.o)
+dj_global_id_isJavaLangObject                     darjeeling.a(global_id.o)
+                                                  darjeeling.a(execution.o)
+dj_global_id_lookupVirtualMethod                  darjeeling.a(global_id.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(execution.o)
+dj_global_id_mapToInfusion                        darjeeling.a(global_id.o)
+dj_global_id_resolve                              darjeeling.a(global_id.o)
+                                                  darjeeling.a(java_lang_Object.o)
+                                                  darjeeling.a(execution.o)
+dj_global_id_testClassType                        darjeeling.a(global_id.o)
+                                                  darjeeling.a(java_lang_System.o)
+                                                  darjeeling.a(execution.o)
+dj_global_id_testType                             darjeeling.a(global_id.o)
+                                                  darjeeling.a(execution.o)
+dj_infusion_create                                darjeeling.a(infusion.o)
+                                                  darjeeling.a(vm.o)
+dj_infusion_destroy                               darjeeling.a(infusion.o)
+dj_infusion_getClassDefinition                    darjeeling.a(infusion.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(global_id.o)
+dj_infusion_getMethodImplementation               darjeeling.a(infusion.o)
+                                                  darjeeling.a(global_id.o)
+dj_infusion_getName                               darjeeling.a(infusion.o)
+dj_infusion_getReferencedInfusionIndex            darjeeling.a(infusion.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(global_id.o)
+dj_infusion_getString                             darjeeling.a(infusion.o)
+                                                  darjeeling.a(global_id.o)
+dj_infusion_markRootSet                           darjeeling.a(infusion.o)
+                                                  darjeeling.a(vm.o)
+dj_infusion_updatePointers                        darjeeling.a(infusion.o)
+                                                  darjeeling.a(heap.o)
+dj_int_array_create                               darjeeling.a(array.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(jstring.o)
+                                                  darjeeling.a(execution.o)
+dj_int_array_destroy                              darjeeling.a(array.o)
+dj_jstring_create                                 darjeeling.a(jstring.o)
+dj_jstring_createFromGlobalId                     darjeeling.a(jstring.o)
+                                                  darjeeling.a(java_lang_Object.o)
+                                                  darjeeling.a(execution.o)
+dj_jstring_createFromStr                          darjeeling.a(jstring.o)
+dj_mem_addSafePointer                             darjeeling.a(heap.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(jstring.o)
+                                                  darjeeling.a(execution.o)
+dj_mem_alloc                                      darjeeling.a(heap.o)
+                                                  darjeeling.a(array.o)
+                                                  darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(object.o)
+                                                  darjeeling.a(infusion.o)
+dj_mem_compact                                    darjeeling.a(heap.o)
+dj_mem_countSafePointers                          darjeeling.a(heap.o)
+dj_mem_free                                       darjeeling.a(heap.o)
+                                                  darjeeling.a(array.o)
+                                                  darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(jstring.o)
+                                                  darjeeling.a(infusion.o)
+                                                  darjeeling.a(execution.o)
+dj_mem_gc                                         darjeeling.a(heap.o)
+                                                  darjeeling.a(java_lang_Runtime.o)
+dj_mem_getFree                                    darjeeling.a(heap.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(java_lang_Runtime.o)
+dj_mem_getPanicExceptionObject                    darjeeling.a(heap.o)
+                                                  darjeeling.a(execution.o)
+dj_mem_getSize                                    darjeeling.a(heap.o)
+                                                  darjeeling.a(java_lang_Runtime.o)
+dj_mem_init                                       darjeeling.a(heap.o)
+                                                  darjeeling.a(main.o)
+dj_mem_removeSafePointer                          darjeeling.a(heap.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(jstring.o)
+                                                  darjeeling.a(execution.o)
+dj_mem_setPanicExceptionObject                    darjeeling.a(heap.o)
+dj_mem_shiftRuntimeIDs                            darjeeling.a(heap.o)
+                                                  darjeeling.a(vm.o)
+dj_monitor_block_create                           darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+dj_monitor_block_updatePointers                   darjeeling.a(vmthread.o)
+                                                  darjeeling.a(heap.o)
+dj_monitor_markRootSet                            darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+dj_object_create                                  darjeeling.a(object.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(jstring.o)
+                                                  darjeeling.a(execution.o)
+dj_object_getRuntimeId                            darjeeling.a(object.o)
+                                                  darjeeling.a(execution.o)
+dj_panic                                          darjeeling.a(panic.o)
+                                                  darjeeling.a(array.o)
+                                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(heap.o)
+                                                  darjeeling.a(execution.o)
+dj_ref_array_create                               darjeeling.a(array.o)
+                                                  darjeeling.a(execution.o)
+dj_ref_array_destroy                              darjeeling.a(array.o)
+dj_ref_array_updatePointers                       darjeeling.a(array.o)
+                                                  darjeeling.a(heap.o)
+dj_thread_create                                  darjeeling.a(vmthread.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(vm.o)
+dj_thread_create_and_run                          darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+dj_thread_destroy                                 darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+dj_thread_markRootSet                             darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+dj_thread_popFrame                                darjeeling.a(vmthread.o)
+                                                  darjeeling.a(execution.o)
+dj_thread_pushFrame                               darjeeling.a(vmthread.o)
+                                                  darjeeling.a(execution.o)
+dj_thread_sleep                                   darjeeling.a(vmthread.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+dj_thread_updatePointers                          darjeeling.a(vmthread.o)
+                                                  darjeeling.a(heap.o)
+dj_thread_wait                                    darjeeling.a(vmthread.o)
+                                                  darjeeling.a(java_lang_Object.o)
+dj_timer_getTimeMillis                            darjeeling.a(djtimer.o)
+                                                  darjeeling.a(java_lang_System.o)
+                                                  darjeeling.a(vmthread.o)
+                                                  darjeeling.a(vm.o)
+dj_timer_init                                     darjeeling.a(djtimer.o)
+                                                  darjeeling.a(main.o)
+dj_vm_activateThread                              darjeeling.a(vm.o)
+dj_vm_addInfusion                                 darjeeling.a(vm.o)
+dj_vm_addThread                                   darjeeling.a(vm.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+dj_vm_checkFinishedThreads                        darjeeling.a(vm.o)
+dj_vm_countInfusions                              darjeeling.a(vm.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+dj_vm_countLiveThreads                            darjeeling.a(vm.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(main.o)
+dj_vm_countThreads                                darjeeling.a(vm.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+dj_vm_create                                      darjeeling.a(vm.o)
+                                                  darjeeling.a(main.o)
+dj_vm_createSysLibObject                          darjeeling.a(vm.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(execution.o)
+dj_vm_destroy                                     darjeeling.a(vm.o)
+dj_vm_getInfusion                                 darjeeling.a(vm.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+dj_vm_getInfusionId                               darjeeling.a(vm.o)
+dj_vm_getMonitor                                  darjeeling.a(vm.o)
+                                                  darjeeling.a(execution.o)
+dj_vm_getRuntimeClass                             darjeeling.a(vm.o)
+                                                  darjeeling.a(java_lang_System.o)
+                                                  darjeeling.a(java_lang_Object.o)
+                                                  darjeeling.a(global_id.o)
+                                                  darjeeling.a(execution.o)
+dj_vm_getRuntimeClassDefinition                   darjeeling.a(vm.o)
+                                                  darjeeling.a(jstring.o)
+                                                  darjeeling.a(heap.o)
+                                                  darjeeling.a(execution.o)
+dj_vm_getSysLibClassRuntimeId                     darjeeling.a(vm.o)
+                                                  darjeeling.a(jstring.o)
+dj_vm_getSystemInfusion                           darjeeling.a(vm.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(global_id.o)
+dj_vm_getThread                                   darjeeling.a(vm.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+dj_vm_getThreadById                               darjeeling.a(vm.o)
+                                                  darjeeling.a(java_lang_Thread.o)
+dj_vm_getVMSleepTime                              darjeeling.a(vm.o)
+dj_vm_loadInfusion                                darjeeling.a(vm.o)
+dj_vm_loadInfusionArchive                         darjeeling.a(vm.o)
+                                                  darjeeling.a(main.o)
+dj_vm_loadSystemInfusion                          darjeeling.a(vm.o)
+dj_vm_lookupInfusion                              darjeeling.a(vm.o)
+dj_vm_markRootSet                                 darjeeling.a(vm.o)
+                                                  darjeeling.a(heap.o)
+dj_vm_notify                                      darjeeling.a(vm.o)
+                                                  darjeeling.a(java_lang_Object.o)
+dj_vm_removeMonitor                               darjeeling.a(vm.o)
+                                                  darjeeling.a(execution.o)
+dj_vm_removeThread                                darjeeling.a(vm.o)
+dj_vm_runClassInitialisers                        darjeeling.a(vm.o)
+dj_vm_safeToUnload                                darjeeling.a(vm.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+dj_vm_schedule                                    darjeeling.a(vm.o)
+                                                  darjeeling.a(main.o)
+dj_vm_setSystemInfusion                           darjeeling.a(vm.o)
+dj_vm_unloadInfusion                              darjeeling.a(vm.o)
+                                                  darjeeling.a(javax_darjeeling_vm_Infusion.o)
+dj_vm_updatePointers                              darjeeling.a(vm.o)
+                                                  darjeeling.a(heap.o)
+dj_vm_wakeThreads                                 darjeeling.a(vm.o)
+exit                                              /usr/lib/gcc/avr/4.3.4/avr51/libgcc.a(_exit.o)
+                                                  darjeeling.a(panic.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+fgetc                                             /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fgetc.o)
+                                                  darjeeling.a(javax_darjeeling_io_Serial.o)
+fputc                                             /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(fputc.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+java_lang_Object_int_hashCode                     darjeeling.a(java_lang_Object.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Object_java_lang_String_toString        darjeeling.a(java_lang_Object.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Object_void_notify                      darjeeling.a(java_lang_Object.o)
+java_lang_Object_void_notifyAll                   darjeeling.a(java_lang_Object.o)
+java_lang_Object_void_wait                        darjeeling.a(java_lang_Object.o)
+java_lang_Object_void_wait_int                    darjeeling.a(java_lang_Object.o)
+java_lang_Runtime_int_freeMemory                  darjeeling.a(java_lang_Runtime.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Runtime_int_totalMemory                 darjeeling.a(java_lang_Runtime.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Runtime_void_exit_int                   darjeeling.a(java_lang_Runtime.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Runtime_void_gc                         darjeeling.a(java_lang_Runtime.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_System_long_currentTimeMillis           darjeeling.a(java_lang_System.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_System_void_arraycopy_java_lang_Object_int_java_lang_Object_int_int darjeeling.a(java_lang_System.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Thread_int_activeCount                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Thread_short__create                    darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Thread_short__getCurrentThreadId        darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Thread_short__getStatus_short           darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Thread_void__setRunnable_short_java_lang_Runnable darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Thread_void__start_short                darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Thread_void_sleep_long                  darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(jlib_base.o)
+java_lang_Thread_void_yield                       darjeeling.a(java_lang_Thread.o)
+                                                  darjeeling.a(jlib_base.o)
+javax_darjeeling_Darjeeling_int_getMemFree        darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_Darjeeling_int_getNodeId         darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_Darjeeling_int_random            darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_Darjeeling_java_lang_Thread_getThread_short darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_Darjeeling_short_getNrThreads    darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_Darjeeling_void__print_java_lang_String darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_Darjeeling_void_assertTrue_int_boolean darjeeling.a(javax_darjeeling_Darjeeling.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_actuators_Leds_short_getNrLeds   darjeeling.a(javax_darjeeling_actuators_Leds.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_actuators_Leds_void_set_short_boolean darjeeling.a(javax_darjeeling_actuators_Leds.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_actuators_Servo_short_getNrServos darjeeling.a(javax_darjeeling_actuators_Servo.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_actuators_Servo_void_setPulseRange_short_short_short darjeeling.a(javax_darjeeling_actuators_Servo.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_actuators_Servo_void_set_short_short darjeeling.a(javax_darjeeling_actuators_Servo.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_io_ProgramFlash_byte____read_int darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_io_ProgramFlash_int_getBlockCount darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_io_ProgramFlash_short_getBlockSize darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_io_ProgramFlash_void__write_int_byte__ darjeeling.a(javax_darjeeling_io_ProgramFlash.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_io_SerialInputStream_short__read_byte darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_io_SerialInputStream_void__waitForByte_byte darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_io_SerialOutputStream_void__write_byte_int darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_io_Serial_byte_getNrSerialPorts  darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_io_Serial_int_getDefaultBaudRate_byte darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_io_Serial_void_setBaudRate_byte_int darjeeling.a(javax_darjeeling_io_Serial.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_boolean__send_short_byte__ darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_boolean_hasRadio     darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_byte____readBytes    darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_byte__getNumMessages darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_short_getFirstChannel darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_short_getLastChannel darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_short_getMaxMessageLength darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_void__broadcast_byte__ darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_void__init_int       darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_void__waitForMessage darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_void_setChannel_short darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_radio_Radio_void_setOutputPower_short darjeeling.a(javax_darjeeling_radio_Radio.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_sensors_ADC_byte_getResolution_short darjeeling.a(javax_darjeeling_sensors_ADC.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_sensors_ADC_int_read_short       darjeeling.a(javax_darjeeling_sensors_ADC.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_sensors_ADC_short_getNrADCs      darjeeling.a(javax_darjeeling_sensors_ADC.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_sensors_Buttons_boolean_pressed_short darjeeling.a(javax_darjeeling_sensors_Buttons.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_sensors_Buttons_short_getNrButtons darjeeling.a(javax_darjeeling_sensors_Buttons.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_sensors_Buttons_void_waitForDown_short darjeeling.a(javax_darjeeling_sensors_Buttons.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_sensors_Buttons_void_waitForUp_short darjeeling.a(javax_darjeeling_sensors_Buttons.o)
+                                                  darjeeling.a(jlib_darjeeling2.o)
+javax_darjeeling_vm_Infusion_char____getName_java_lang_Object darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(jlib_base.o)
+javax_darjeeling_vm_Infusion_java_lang_Object__getImportedInfusion_java_lang_Object_short darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(jlib_base.o)
+javax_darjeeling_vm_Infusion_java_lang_Object__getInfusion_short darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(jlib_base.o)
+javax_darjeeling_vm_Infusion_short__getImportedInfusionCount_java_lang_Object darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(jlib_base.o)
+javax_darjeeling_vm_Infusion_short_getInfusionCount darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(jlib_base.o)
+javax_darjeeling_vm_Infusion_void__unload_java_lang_Object darjeeling.a(javax_darjeeling_vm_Infusion.o)
+                                                  darjeeling.a(jlib_base.o)
+main                                              darjeeling.a(main.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/crtm1280.o
+mem                                               darjeeling.a(main.o)
+memcpy                                            /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memcpy.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memmove.o)
+                                                  darjeeling.a(java_lang_System.o)
+memmove                                           /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memmove.o)
+                                                  darjeeling.a(java_lang_System.o)
+                                                  darjeeling.a(heap.o)
+memset                                            /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(memset.o)
+                                                  darjeeling.a(array.o)
+                                                  darjeeling.a(vmthread.o)
+                                                  darjeeling.a(object.o)
+                                                  darjeeling.a(infusion.o)
+rand                                              /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+                                                  darjeeling.a(javax_darjeeling_Darjeeling.o)
+rand_r                                            /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+srand                                             /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(rand.o)
+strnlen                                           /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+strnlen_P                                         /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(strnlen_P.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+timer0_millis                                     darjeeling.a(avr.o)
+timer0_overflow_count                             darjeeling.a(avr.o)
+vfprintf                                          /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vfprintf_std.o)
+                                                  /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+vsnprintf                                         /usr/lib/gcc/avr/4.3.4/../../../avr/lib/avr51/libc.a(vsnprintf.o)
+                                                  darjeeling.a(avr.o)

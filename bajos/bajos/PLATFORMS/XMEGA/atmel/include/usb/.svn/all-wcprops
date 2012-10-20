@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/usb
+END
+usb_protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/usb/usb_protocol.h
+END
+udc.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/usb/udc.h
+END
+dev.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/usb/dev.h
+END
+udi_msc_bulk.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/usb/udi_msc_bulk.h
+END
+udc_lib.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/usb/udc_lib.h
+END
+udc_at90usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/usb/udc_at90usb.h
+END
+msc_protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/usb/msc_protocol.h
+END
+dev_mux.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/usb/dev_mux.h
+END
+request.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/usb/request.h
+END
+usb_ids.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/usb/usb_ids.h
+END

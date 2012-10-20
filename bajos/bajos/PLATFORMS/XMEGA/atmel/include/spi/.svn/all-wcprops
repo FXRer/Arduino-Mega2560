@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/spi
+END
+spi_polled.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/spi/spi_polled.h
+END
+spi_xmega.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/spi/spi_xmega.h
+END
+spi_mega.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/spi/spi_mega.h
+END
+spi_mega_xmega.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/spi/spi_mega_xmega.h
+END

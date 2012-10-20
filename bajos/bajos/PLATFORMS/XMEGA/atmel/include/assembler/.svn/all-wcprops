@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/assembler
+END
+gas.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/assembler/gas.h
+END
+iar.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/assembler/iar.h
+END

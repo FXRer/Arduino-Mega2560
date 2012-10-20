@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/NGW100
+END
+ngw100.inc
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/NGW100/ngw100.inc
+END
+platform.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/NGW100/platform.c
+END
+native.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/NGW100/native.c
+END
+platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/NGW100/platform.h
+END
+native.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/NGW100/native.h
+END

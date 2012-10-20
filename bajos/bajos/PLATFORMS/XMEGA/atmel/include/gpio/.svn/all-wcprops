@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gpio
+END
+portmux_gpio.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gpio/portmux_gpio.h
+END
+portmux_gpio_regs.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gpio/portmux_gpio_regs.h
+END
+port.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gpio/port.h
+END
+gpio_mega.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gpio/gpio_mega.h
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch
+END
+atomic.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/atomic.h
+END
+interrupt.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/interrupt.h
+END
+intc.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/intc.h
+END
+byteorder.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/byteorder.h
+END
+bitops.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/bitops.h
+END
+compiler-iar.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/compiler-iar.h
+END
+compiler-gcc.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/compiler-gcc.h
+END
+stdint.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/stdint.h
+END
+string.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/string.h
+END
+assembler-iar.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/assembler-iar.h
+END
+progmem.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/progmem.h
+END
+softirq.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/softirq.h
+END
+io.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/io.h
+END
+hugemem.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/arch/hugemem.h
+END
