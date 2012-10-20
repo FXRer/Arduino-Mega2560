@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/scsi
+END
+spc_protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/scsi/spc_protocol.h
+END
+sbc_protocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/scsi/sbc_protocol.h
+END
+cdb.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/scsi/cdb.h
+END

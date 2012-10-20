@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/894/trunk/bajos/PLATFORMS/XMEGA/atmel
+END
+delay.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/delay.c
+END
+uart_xmega_ctrl.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/uart_xmega_ctrl.c
+END
+entry.S
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/entry.S
+END
+xmega_pr.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/xmega_pr.c
+END
+generic_strlen.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/generic_strlen.c
+END
+init.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/init.c
+END
+autoconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/autoconf.h
+END
+generic_strcmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/generic_strcmp.c
+END
+port.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/port.c
+END
+ccp.S
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/ccp.S
+END
+generic_memcpy.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/generic_memcpy.c
+END
+generic_memset.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/generic_memset.c
+END
+sysclk.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/XMEGA/atmel/sysclk.c
+END

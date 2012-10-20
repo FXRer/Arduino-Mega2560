@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/timer
+END
+timer_avr32.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/timer/timer_avr32.h
+END
+timer_xmega.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/timer/timer_xmega.h
+END
+tc_timer_avr32.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/timer/tc_timer_avr32.h
+END
+tc_timer_xmega.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/timer/tc_timer_xmega.h
+END

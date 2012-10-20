@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/894/trunk/bajos/PLATFORMS/XMEGA/atmel/include/cpu
+END
+regs.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/cpu/regs.h
+END
+dma.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/cpu/dma.h
+END
+physmem.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/cpu/physmem.h
+END
+unaligned.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/cpu/unaligned.h
+END
+io.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/cpu/io.h
+END
+sleep.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/cpu/sleep.h
+END

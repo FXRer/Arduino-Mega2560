@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/894/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gfx
+END
+gfx_hx8347a.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gfx/gfx_hx8347a.h
+END
+win.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gfx/win.h
+END
+gfx_generic.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gfx/gfx_generic.h
+END
+gfx.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gfx/gfx.h
+END
+wtk.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gfx/wtk.h
+END
+sysfont.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/gfx/sysfont.h
+END

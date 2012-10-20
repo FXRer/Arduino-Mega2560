@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/tc
+END
+tc_ints_avr32.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/tc/tc_ints_avr32.h
+END
+tc_avr32.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/tc/tc_avr32.h
+END
+tc_xmega.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/tc/tc_xmega.h
+END

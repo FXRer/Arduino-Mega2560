@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/932/trunk/bajos/JVM
+END
+bajvm.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/932/trunk/bajos/JVM/bajvm.c
+END
+interpreter.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/931/trunk/bajos/JVM/interpreter.c
+END
+bajvm.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/921/trunk/bajos/JVM/bajvm.h
+END
+stack.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/887/trunk/bajos/JVM/stack.c
+END
+classfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/928/trunk/bajos/JVM/classfile.c
+END
+nativedispatch.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/887/trunk/bajos/JVM/nativedispatch.c
+END
+limits.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/887/trunk/bajos/JVM/limits.h
+END
+interpreter.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/887/trunk/bajos/JVM/interpreter.h
+END
+classfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/929/trunk/bajos/JVM/classfile.h
+END
+stack.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/887/trunk/bajos/JVM/stack.h
+END
+heap.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/917/trunk/bajos/JVM/heap.c
+END
+scheduler.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/919/trunk/bajos/JVM/scheduler.c
+END
+definitions.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/930/trunk/bajos/JVM/definitions.h
+END
+heap.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/887/trunk/bajos/JVM/heap.h
+END
+typedefinitions.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/887/trunk/bajos/JVM/typedefinitions.h
+END
+scheduler.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/887/trunk/bajos/JVM/scheduler.h
+END

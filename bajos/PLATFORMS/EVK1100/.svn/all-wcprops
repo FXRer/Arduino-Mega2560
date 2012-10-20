@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/891/trunk/bajos/PLATFORMS/EVK1100
+END
+evk1100.inc
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/EVK1100/evk1100.inc
+END
+link_uc3a0512.lds
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/EVK1100/link_uc3a0512.lds
+END
+platform.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/EVK1100/platform.c
+END
+link_uc3a0512withmon.lds
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/EVK1100/link_uc3a0512withmon.lds
+END
+native.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/EVK1100/native.c
+END
+platform.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/EVK1100/platform.h
+END
+native.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/EVK1100/native.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/887/trunk/bajos/PLATFORMS/EVK1100/README
+END

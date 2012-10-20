@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/flash
+END
+at45_device.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/flash/at45_device.h
+END
+at45.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/893/trunk/bajos/PLATFORMS/XMEGA/atmel/include/flash/at45.h
+END
