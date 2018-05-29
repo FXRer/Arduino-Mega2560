@@ -10,3 +10,6 @@
 [submodule "StepperMotor/Ananas/David-3D-laserscanner-automitive-scan-program"]
 	path = StepperMotor/Ananas/David-3D-laserscanner-automitive-scan-program
 	url = https://github.com/Dark-Guan/David-3D-laserscanner-automitive-scan-program.git
+[submodule "ethercard"]
+	path = ethercard
+	url = https://github.com/jcw/ethercard.git
